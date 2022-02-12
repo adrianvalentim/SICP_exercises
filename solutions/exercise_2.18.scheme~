@@ -1,0 +1,9 @@
+#lang racket
+
+;exercise 2.18
+
+(define (last-pair list)
+  (if (= (cdr list) nil)
+      (car list)
+      (cons (last-pair (cdr list)) (car list))))
+

@@ -1,0 +1,7 @@
+#lang racket
+
+;problem 2.5
+
+;It's nice to remember that by the Fundamental Theorem of Aritmetic any natural number
+;has a unique representation as powers of primes. It follows that after calculating (2^a)(3^b)
+;we can always recover a,b by just finding the prime representation of such a number.
